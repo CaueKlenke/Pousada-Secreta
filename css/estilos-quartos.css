@@ -1,0 +1,79 @@
+/* Página quartos */
+
+.imagem-fundo {
+    width: 100%;
+    height: 250px;
+    background: url('/assets/img-fundo.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.quartos-box {
+    width: 100%;
+    padding: 80px 0 50px;
+}
+
+.containers-largura-quartos {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.texto-quartos {
+    text-align: center;
+    color: #383838;
+}
+
+.texto-quartos h1 {
+    font-size: 34px;
+    font-weight: 500;
+    padding: 0 0 20px;
+}
+
+.texto-quartos p {
+    font-size: 18px;
+    padding: 10px 0 20px;
+}
+
+.espaco-quartos {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.espaco-quartos img {
+    max-width: 420px;
+    display: flex;
+    margin: 10px 5px;
+}
+
+/* lista */
+
+.container-informacoes {
+    max-width: 980px;
+    margin: 40px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.container-informacoes h3 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.lista-informacoes li {
+    font-size: 20px;
+    width: 230px; 
+}
+
+.lista-informacoes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px 50px;
+}

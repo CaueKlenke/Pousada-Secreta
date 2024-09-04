@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.limitar-secao {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* topo */
+
+.topo {
+    width: 100%;
+    background-color: #fff;
+    padding: 25px;
+    position: fixed;
+}
+
+.topo-tamanho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.texto-topo p, a{
+    font-size: 24px;
+    
+}
+
+.texto-topo a {
+    color: #189dc5;
+}
+
+.topo-tamanho a {
+    text-decoration: none;
+}
+
+.links-topo a{
+    font-size: 20px;
+    color: #383838;
+    padding: 0 20px;
+    font-weight: 600;
+}
+
+.links-topo a:hover {
+    text-decoration: underline;
+}
+
+/* banner */
+
+.banner {
+    width: 100%;
+    height: 90vh;
+    background: url('/assets/img-fundo.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.banner-texto {
+    max-width: 600px;
+    padding: 20px;
+    color: white;
+    background-color: #38aaa1b2;
+    border: 2px solid #fff;
+    text-align: center;
+}
+
+.banner-texto h1 {
+    font-size: 64px;
+    padding: 10px 0 60px;
+    word-break: break-all;
+}
+
+.banner-texto p {
+    font-size: 34px;
+    padding-bottom: 10px;
+}
+
+/* quartos */
+
+.container-quartos {
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+.container-conteudo {
+    margin: 0 auto;
+}
+
+.container-texto {
+    color: #383838;
+    padding: 30px 0;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-texto h2 {
+    font-weight: 500;
+    font-size: 34px;
+    padding-bottom: 30px;
+}
+
+.container-texto p {
+    line-height: 40px;
+    font-size: 18px
+}
+
+.quartos-home {
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.quartos-home img {
+    max-width: 350px;
+    max-height: 210px;
+    padding: 10px 15px;
+    flex: 2 1 auto;
+}
+
+.main-home {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.main-home h3 {
+    color: #383838;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.borda-texto {
+    border-bottom: 3px solid #38aaa1;
+    margin: 0 15px;
+    padding: 15px
+}
+
+/* iframe */
+
+.rota {
+    margin-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 500px
+}
+
+/* sobre a pousada */ 
+
+.sobre-containers {
+    max-width: 1024px;
+}
+
+.sobre-pousada {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img-container img {
+    width: 120px;
+    height: 120px;
+}
+
+.section-sobre {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.box-sobre {
+    margin: 20px ;
+    display: flex;
+    justify-content: space-between;
+    flex: 1 0 350px;
+}
+
+.texto-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #383838;
+    max-width: 400px;
+}
+
+.texto-container h3 {
+    font-size: 22px;
+}
+
+.texto-container p {
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* rodapé */
+
+.rodape {
+    width: 100%;
+    background-color: #409672;
+    padding: 30px 10px;
+    color: white;
+    margin-top: 30px;
+
+}
+
+.rodape-tamanho {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #2a805c;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1 0 auto;
+}
+
+.rodape-conteudo {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.rodape-conteudo h3 {
+    font-size: 24px;
+}
+
+.rodape-titulo {
+    width: 200px;
+}
+
+.rodape-conteudo img {
+    width: 40px;
+    margin: 10px 8px;
+}
+
+.texto-rodape {
+    width: 200px;
+}
+
+.texto-rodape p {
+    font-size: 18px
+}
+
+.rodape-final {
+    text-align: center;
+    padding: 25px 0 5px; 
+}
+
+.rodape-final p {
+    font-size: 18px;
+}
+
+
